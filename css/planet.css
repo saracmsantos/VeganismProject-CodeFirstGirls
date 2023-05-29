@@ -1,0 +1,112 @@
+/* hero image styles */
+.hero .heroImage {
+    width: 100%;
+    border-radius: 80px;
+}
+
+@media only screen and (min-width: 830px) {
+    .hero .heroText {
+        position: absolute;
+        top: 50%;
+        left: 6%;
+        transform: translate(0, -50%);
+        max-width: 50%;
+    }
+}
+
+.hero .heroText {
+    text-align: left;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero .image-container .heroImage-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 830px) {
+    .hero .image-container .heroImage-mobile {
+        display: block;
+    }
+
+    .hero .image-container .heroImage {
+        display: none;
+    }
+}
+
+/* Heading styles */
+
+h1 {
+    color: #2C6E49;
+    font-size: 40pt;
+}
+
+h3 {
+    color: #2C6E49;
+    text-align: center;
+    padding: 20px;
+    font-size: 24pt;
+}
+
+.page-text {
+    padding: 60px;
+}
+
+/* Dropdown boxes */
+
+.col-container {
+    padding: 25px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: #2C6E49;
+    border-color: #2C6E49;
+    border: 20px;
+    border-radius: 80px;
+}
+
+.containerTab {
+    padding: 20px;
+    border-radius: 80px;
+    color: #2C6E49;
+    text-align: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.closebtn {
+    float: right;
+    color: #2C6E49;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/*body link styling*/
+a.body-link:link {
+    color: #2C6E49;
+}
+
+a.bodylink:hover {
+    color: #D68C45;
+    text-decoration: underline;
+}
+
+a.body-link:visited {
+    color: #4C956C
+}
+
+.video-container {
+    text-align: center;
+}

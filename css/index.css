@@ -1,0 +1,123 @@
+.hero .heroImage {
+    width: 100%;
+    border-radius: 80px;
+}
+
+@media only screen and (min-width: 830px) {
+    .hero .heroText {
+        position: absolute;
+        top: 50%;
+        left: 6%;
+        transform: translate(0, -50%);
+        max-width: 50%;
+    }
+}
+.hero .heroText {
+    text-align: justify;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero .heroText figcaption {
+    font-style: italic;
+    text-align: right;
+}
+
+.hero .image-container .heroImage-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 830px) {
+    .hero .image-container .heroImage-mobile {
+        display: block;
+    }
+    .hero .image-container .heroImage {
+        display: none;
+    }
+}
+
+.key-reason img {
+    width: 100%;
+    aspect-ratio: 1 / 1.065;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+}
+
+.key-reasons a {
+    text-decoration: none;
+}
+
+.key-reason {
+text-align: center;
+color: #4C956C;
+font-weight: bold;
+font-size: 17pt;
+}
+
+h3 {
+    color: #2C6E49;
+    text-align: center;
+    margin: 40px;
+    font-size: 24pt;
+}
+
+.video-container {
+    text-align: center;
+}
+
+.how-to-go-vegan-video {
+    border-radius: 25px;
+    width: 80%;
+    aspect-ratio: 640 / 360;
+    max-width: 640px;
+}
+
+.celebrity-quotes {
+    max-width: unset;
+    margin: 0;
+}
+
+@media only screen and (max-width: 992px) {
+    .celebrity-quotes {
+        max-width: 600px;
+        margin: auto;
+    }
+}
+
+.celebrity-quote {
+    background-color: #FEFEE3;
+    border-radius: 50px;
+    height: 316px;
+    padding: 25px;
+    text-align: justify;
+    position: relative;
+}
+
+.celebrity-quote img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.celebrity-quote blockquote {
+    display: inline-block;
+}
+
+.celebrity-quote figcaption {
+    font-style: italic;
+    text-align: right;
+}
+
+.vertically-center-content {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.smaller-quote {
+    height: 200px;
+}

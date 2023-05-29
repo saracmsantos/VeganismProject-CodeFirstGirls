@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/animals.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm main-navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="sitelogo">
+                <a href="../index.html">Veganism</a>
+            </div>
+            <ul class="right-list collapse navbar-collapse" id="navbarTogglerDemo01">
+                <li>
+                    <a href="animals.html" class="active">
+                        <img src="../images/pig.png" class="pig-icon"/>
+                        <span>Animals</span>
+                    </a>
+                </li> 
+                <li>
+                    <a href="health.html">
+                        <img src="../images/cardiogram.png"/>
+                        <span>Health</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="planet.html">
+                        <img src="../images/planet-earth.png"/>
+                        <span>Planet</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Main content -->
+
+        <div class="hero">
+          <div class="image-container">
+              <img class="heroImage" src="../images/bee.jpg" />
+              <img class="mx-auto heroImage-mobile" src='../images/bee-heart.png' />
+          </div>
+          <figure class="heroText">
+              <blockquote>
+                Honey is made by bees for bees, and their health can be sacrificed when it is harvested by humans. 
+                Honey is the energy source of bees; without it they would starve. 
+              </blockquote>
+              <figcaption>
+                  － The Vegan Society
+              </figcaption>
+          </figure>
+      </div>
+  
+<h3 class="text-center">Be kind to every kind</h3>
+
+<div class="container text-center">
+  <div class="row row-cols-2">
+              <!-- Column 3 -->
+              <div class="col col3">
+                <div id="image-container"></div>
+                <ul>
+                  <h4>The face behind the ''ingredients''</h4>
+                  <br>
+                  <li>
+                    <p>
+                      <a href="https://southeastagnet.com/2021/05/24/chickens-amazing-intelligent-affectionate-animals/#:~:text=They%20are%20pretty%20athletic%20with,memories%20and%20facial%20recognition%20skills."
+                        onmouseover="changeImage('https://assets.petco.com/petco/image/upload/f_auto,q_auto/chicken-care-sheet-hero', 'Chickens have great memories and facial recognition skills. They can recognize and distinguish more than 100 faces, animals, and humans.')"
+                      >🐔&nbsp;&nbsp;Chicken
+                      </a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="https://challenge22.com/the-truth-behind-the-egg-industry"
+                        onmouseover="changeImage('https://cdn.vox-cdn.com/thumbor/ZCyuh_xN_9DQliqNFxYCdKci5Dg=/0x0:4000x2783/1400x1050/filters:focal(1525x700:2165x1340):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/69114309/GettyImages_487197792.0.jpg', 'Male chicks cannot lay eggs and are not used for meat. After being separated from the females, they are disposed of like trash, either suffocated to death or ground up alive in large industrial macerators.')"
+                      >🥚&nbsp;&nbsp;Egg
+                      </a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="https://www.peta.org/features/reasons-never-eat-bacon/#:~:text=Pigs%20are%20playful%2C%20friendly%2C%20sensitive,and%20even%20enjoy%20getting%20massages."
+                        onmouseover="changeImage('data:image/jpeg;base64,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','Pigs are playful, friendly, sensitive, and intelligent animals. Much like people, pigs are soothed by music, love playing ball, and even enjoy getting massages.')"
+                      >🐷&nbsp;&nbsp;Pork
+                      </a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="https://goveganworld.com/why-vegan/the-animals-we-use/dairy-take-babies-mothers/"
+                        onmouseover="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB_IdklR0bnQPu-F0YI_lr_Hyh8MFcPwyneA&usqp=CAU','At its heart, dairy is the violation of reproductive capacity, sexuality, family and love.')"
+                      >🥛&nbsp;&nbsp;Dairy
+                      </a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="https://www.vegansociety.com/go-vegan/why-go-vegan/honey-industry"
+                        onmouseover="changeImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3gEG7C1UAubbqO48nGO2i7gR1ERTnXLboAA&usqp=CAU','It takes 12 bees their entire lifetime to make just one teaspoon of honey.')"
+                      >🐝&nbsp;&nbsp;Honey
+                      </a>
+                    </p>
+                  </li>
+                  <br>
+                </ul>
+              </div>
+              
+              <!-- Column 4 -->
+              <div class="col col4">
+                <img src="../images/pigs2.jpg" alt="image" />
+                <div class="centered" id="col4-text">
+                  <br>
+                  “No act of kindness, no matter how small, is ever wasted.”<br><br>— Aesop
+                </div>
+                
+              </div>
+
+<div class="gove"><h3>Open your eyes to the truth</h3></div>
+
+<div class="video-container">
+  <iframe class="how-to-go-vegan-video" 
+  width="640" height="360" 
+  src="https://www.youtube.com/embed/fOpS85RCTbs" 
+  title="Top 7 plant-based films" 
+  frameborder="0" allow="accelerometer; autoplay; 
+  clipboard-write; encrypted-media; gyroscope; 
+  picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+    </main>
+    
+    <!-- Footer content -->
+
+    <footer>
+        <span>Made with 💛 by vegan girls at CFG</span>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <script>
+        function changeImage(imageUrl, textContent) {
+        var imageContainer = document.getElementById("image-container");
+        var col4Text = document.getElementById("col4-text");
+        imageContainer.style.backgroundImage = "url('" + imageUrl + "')";
+        col4Text.textContent = textContent;
+        }
+    </script>
+
+</body>
+</html>

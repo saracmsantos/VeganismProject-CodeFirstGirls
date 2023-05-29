@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,700&family=Hind+Vadodara:wght@400;600&display=swap');
+
+header {
+    background-color: #2C6E49;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.main-navigation .right-list {
+    list-style: none;
+    margin: 0%;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-navigation li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+@media only screen and (max-width: 576px) {
+    .main-navigation li {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .main-navigation .right-list {
+        display: block !important;
+    }
+}
+
+.main-navigation li:last-of-type {
+    margin-right: 0;
+}
+
+.main-navigation .right-list img {
+    height: 30px;
+    margin-right: 2px;
+}
+
+.main-navigation .right-list .pig-icon {
+    height: 35px;
+}
+
+.main-navigation .right-list img,
+.main-navigation .right-list span {
+    vertical-align: middle;
+}
+
+.main-navigation .right-list {
+    text-align: center;
+    padding-left: 0;
+}
+
+body {
+    margin: 30px;
+    background-image: url(file:///C:/Users/sanja/Dropbox/Project%20Veganism/images/grass.jpg);
+    font-family: 'Hind Vadodara', sans-serif;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: cover;
+}
+
+.main-navigation .right-list span {
+    font-size: 17pt;
+    font-family: 'Arvo', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Arvo', serif;
+}
+
+.sitelogo {
+    text-decoration: none;
+    font-family: 'Arvo', serif;
+    font-size: 35pt;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.main-navigation{
+    display: block;
+}
+
+@media only screen and (max-width: 576px) and (min-width: 410px) {
+    .sitelogo {
+        margin-top: -55px;
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: #2C6E49;
+    padding: 25px;
+    font-size: 16pt;
+    color: white;
+    border-radius: 3px;
+}
+
+.navbar .right-list .active {
+    background-color: inherit;
+    color: rgb(255, 201, 185);
+}
+
+a:hover {
+    color: rgb(254, 254, 227);
+}
