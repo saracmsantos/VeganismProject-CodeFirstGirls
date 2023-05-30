@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,700;1,700&family=Hind+Vadodara:wght@400;600&display=swap');
 
+
 header {
     background-color: #2C6E49;
     margin-bottom: 20px;
@@ -57,12 +58,12 @@ header {
 }
 
 body {
-    margin: 30px;
-    background-image: url(file:///C:/Users/sanja/Dropbox/Project%20Veganism/images/grass.jpg);
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
     font-family: 'Hind Vadodara', sans-serif;
-    background-repeat: no-repeat;
-    background-position: 100%;
-    background-size: cover;
 }
 
 .main-navigation .right-list span {
@@ -100,6 +101,8 @@ footer {
     font-size: 16pt;
     color: white;
     border-radius: 3px;
+    margin-top: 50px;
+    margin-bottom: 0;
 }
 
 .navbar .right-list .active {
